@@ -47,7 +47,7 @@ Once you have a secret, it can be communicated to the user however you wish.
 
 ## 4. Verifying
 
-Having provided the user with the secret, the best practice is to verify their authenticator app can create the appropriate code.
+Having provided the user with the secret, the best practice is to verify that their authenticator app can create the appropriate code.
 
 ```php
 $result = $tfa->verifyCode($secret, $_POST['verification']);
